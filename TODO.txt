@@ -1,3 +1,4 @@
 
 COMPLETED
+issue002: executablejar: Code for how to create a standalone executable jar using gradle
 issue001: Setup the repository
