@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>executablejar</name>
-	<comment>Project executablejar created by Buildship.</comment>
+	<name>runnablejar</name>
+	<comment>Project runnablejar created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
