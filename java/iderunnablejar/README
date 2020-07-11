@@ -1,0 +1,26 @@
+This is a project that shows how to create a runnable JAR.
+
+Instructions for IntelliJ IDEA
+
+Step 1. Create a java project
+
+Step 2. Create unit test for the App class:
+  Position the cursor on the class for which you want to create a test.
+  Right click and create the test.
+
+  Then position on the cursor on the created import statements
+  and click the light bulb to add JUnit5 to the list of libraries.
+
+Step 3: Configjure the IDE for JAR creation
+  Go to File ->  Project Structure
+  Select Artifacts click the + sign and choose the JAR option.
+  Then specify the main class and click Apply and then Okay.
+
+
+Step 4: Generate the JAR.
+  Go to Build -> Build Artifacts..
+  Choose build or rebuild from the men
+  Choose build or rebuild from the menu.
+
+
+

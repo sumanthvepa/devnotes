@@ -1,4 +1,7 @@
 
+IN-PROGRESS
+issue006: iderunnablejar: Code for how to create a runnable jar in the IDE
+
 COMPLETED
 issue005: manualjar: Code for how to create a runnable jar manually
 issue004: Rename the project executablejar to runnablejar
