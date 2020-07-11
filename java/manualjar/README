@@ -1,0 +1,5 @@
+manualjar is a demonstration of how to create a runnable jar
+manually using javac and jar. This forms the basis for how
+to write a custom task in gradle that does the same thing
+and eventually how the Spring Boot plugin accomplishes
+the same thing.
