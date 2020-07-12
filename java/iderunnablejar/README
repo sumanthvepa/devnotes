@@ -1,6 +1,7 @@
 This is a project that shows how to create a runnable JAR.
 
 Instructions for IntelliJ IDEA
+==============================
 
 Step 1. Create a java project
 
@@ -22,5 +23,39 @@ Step 4: Generate the JAR.
   Choose build or rebuild from the men
   Choose build or rebuild from the menu.
 
+Instructions for Eclipse
+========================
+
+Step 0a: To Create a project with existing source.
+(This is only because the IntelliJ project was created first, and I want
+both IDEs to use the same source files.)
+
+Create a New Java Project. 
+
+Uncheck the use default workspace and specify the  path to the
+project directory.
+
+Give the project the same name as the directory in which it is going to
+be created.
+
+When prompted to create a module file, choose don't create.
 
 
+Step 0b: Remove the existing jar created by IntellJ that is accidentally
+added to Eclipse.
+
+Not doing this will cause Eclipse to look for depenencies in this JAR.
+This will cause the build to fail if you checkout the project on a 
+machine where the IntelliJ IDEA IDE is not installed.
+
+
+Choose Java Build Path
+
+Select the testjar.jar file and click remove.
+
+Choose Project -> Properties
+
+
+Step 1: Add support for JUnit
+Open the AppTest file. Position the cursor over the @Test annotation.
+Use the popup to add JUnit5 library.
